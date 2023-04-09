@@ -20,21 +20,28 @@ input{
  font-size: 30px;
  padding: 30px;
  margin-top: 10px;
- border-radius: 30px;
+ margin-left: 1px;
+ border-radius: 35px;
  transition: 0.4s ease-in-out;
  justify-content: center;
  font-family: sans-serif;
  font-weight: bold;
- background: rgb(2, 0, 36);
+ 
  background: black;
  color: white;
  border: none;
 }
 input:hover{
- background-color: red;
+ background: #fff1d7;
  transition: 0.5s;
+ color: black;
 }
 .sidebtn{
- background: rgb(7, 5, 37);
- background: linear-gradient(90deg, rgba(7, 5, 37, 1) 0%, rgba(121, 9, 40, 1) 35%, rgba(140, 70, 164, 1) 100%);
+ background: rgb(17, 17, 98);
+ background: linear-gradient(90deg, rgba(17, 17, 98, 1) 7%, rgba(11, 2, 33, 1) 47%, rgba(76, 11, 46, 0.9863747804061226) 89%, rgba(76, 11, 46, 0.9863747804061226) 91%, rgba(76, 11, 46, 0.9863747804061226) 91%);
+}
+.sidebtn:hover{
+ background: #fff1d7;
+ color: black;
+ transition: 0.5s;
 }
