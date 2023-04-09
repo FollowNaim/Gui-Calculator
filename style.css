@@ -25,9 +25,16 @@ input{
  justify-content: center;
  font-family: sans-serif;
  font-weight: bold;
- background-color: black;
+ background: rgb(2, 0, 36);
+ background: black;
  color: white;
+ border: none;
 }
 input:hover{
  background-color: red;
+ transition: 0.5s;
+}
+.sidebtn{
+ background: rgb(7, 5, 37);
+ background: linear-gradient(90deg, rgba(7, 5, 37, 1) 0%, rgba(121, 9, 40, 1) 35%, rgba(140, 70, 164, 1) 100%);
 }
